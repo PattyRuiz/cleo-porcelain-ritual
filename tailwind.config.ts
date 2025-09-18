@@ -47,6 +47,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Luxury design tokens
+        cream: "hsl(var(--cream))",
+        pearl: "hsl(var(--pearl))",
+        gold: "hsl(var(--gold))",
+        "gold-light": "hsl(var(--gold-light))",
+        rose: "hsl(var(--rose))",
+        champagne: "hsl(var(--champagne))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +64,17 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-luxury": "var(--gradient-luxury)",
+        "gradient-gold": "var(--gradient-gold)",
+        "gradient-subtle": "var(--gradient-subtle)",
+      },
+      boxShadow: {
+        luxury: "var(--shadow-luxury)",
+        soft: "var(--shadow-soft)",
+        elegant: "var(--shadow-elegant)",
       },
       borderRadius: {
         lg: "var(--radius)",
