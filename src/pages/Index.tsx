@@ -19,7 +19,7 @@ const Index = () => {
               <div className="space-y-6">
                 <Badge variant="secondary" className="bg-champagne/50 text-primary border-gold/20">
                   <Sparkles className="w-4 h-4 mr-2" />
-                  Precio de Introducción
+                  Edición Limitada
                 </Badge>
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-light leading-tight">
                   Despierta tu{" "}
@@ -336,39 +336,6 @@ const Index = () => {
           <p className="text-lg font-medium text-primary">
             Solo lo esencial para tu piel y tu alma.
           </p>
-        </div>
-      </section>
-
-      {/* Pricing Section */}
-      <section className="py-20 px-4 md:px-8 lg:px-16">
-        <div className="max-w-2xl mx-auto text-center">
-          <Card className="bg-gradient-luxury border-gold/30 shadow-luxury p-8">
-            <CardContent className="space-y-8">
-              <div className="space-y-4">
-                <p className="text-lg text-muted-foreground line-through">
-                  💎 Precio real del kit: $2,676 MXN
-                </p>
-                <div className="space-y-2">
-                  <Badge variant="secondary" className="bg-gold/20 text-primary border-gold/30 text-lg px-4 py-2">
-                    🎁 Precio de introducción por tiempo limitado
-                  </Badge>
-                  <p className="text-4xl md:text-5xl font-bold text-primary">
-                    $1,529 MXN
-                  </p>
-                </div>
-              </div>
-              
-              <Button 
-                variant="luxury" 
-                size="xl" 
-                className="w-full group"
-                onClick={() => window.open('https://wa.me/525530702640?text=Quiero%20sentir%20Cleo%20en%20mi%20piel%20-%20Kit%20Facial%20$1,529%20MXN', '_blank')}
-              >
-                Quiero sentir Cleo en mi piel
-                <Sparkles className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
-              </Button>
-            </CardContent>
-          </Card>
         </div>
       </section>
 
