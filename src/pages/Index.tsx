@@ -31,7 +31,12 @@ const Index = () => {
                   El ritual facial que transforma tu piel… y te recuerda que eres arte en movimiento.
                 </p>
               </div>
-              <Button variant="luxury" size="xl" className="group">
+              <Button 
+                variant="luxury" 
+                size="xl" 
+                className="group"
+                onClick={() => window.open('https://wa.me/525530702640?text=Hola,%20quiero%20mi%20ritual%20Cleo', '_blank')}
+              >
                 Quiero mi ritual Cleo
                 <Heart className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </Button>
@@ -193,7 +198,7 @@ const Index = () => {
                       </li>
                       <li className="flex items-center gap-2">
                         <Sparkles className="w-4 h-4 text-gold" />
-                        Efecto glow inmediato
+                        Efecto glow tensor suave inmediato
                       </li>
                     </ul>
                   </div>
@@ -326,10 +331,10 @@ const Index = () => {
           </div>
           <h2 className="text-3xl md:text-4xl font-light text-primary">Cleo Boutique</h2>
           <p className="text-xl md:text-2xl leading-relaxed text-muted-foreground">
-            Formula productos de alto desempeño, 100% naturales y veganos.
+            Formula productos de alto desempeño, 100% naturales, sintéticos seguros para la piel, probados en humanos no en animales, libres de crueldad animal, extractos naturales.
           </p>
           <p className="text-lg font-medium text-primary">
-            Sin aditivos. Sin rellenos. Sin artificios. Solo lo esencial para tu piel y tu alma.
+            Solo lo esencial para tu piel y tu alma.
           </p>
         </div>
       </section>
@@ -353,7 +358,12 @@ const Index = () => {
                 </div>
               </div>
               
-              <Button variant="luxury" size="xl" className="w-full group">
+              <Button 
+                variant="luxury" 
+                size="xl" 
+                className="w-full group"
+                onClick={() => window.open('https://wa.me/525530702640?text=Quiero%20sentir%20Cleo%20en%20mi%20piel%20-%20Kit%20Facial%20$1,529%20MXN', '_blank')}
+              >
                 Quiero sentir Cleo en mi piel
                 <Sparkles className="w-5 h-5 ml-2 group-hover:scale-110 transition-transform" />
               </Button>
